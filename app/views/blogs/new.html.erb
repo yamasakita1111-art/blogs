@@ -1,0 +1,7 @@
+新規登録
+
+<%= form_with(model: @blog) do |f| %>
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+	<%= f.submit %>
+<% end %>
