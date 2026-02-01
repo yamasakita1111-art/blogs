@@ -1,0 +1,9 @@
+<h1>ブログ一覧</h1>
+
+<ul>
+    <% @blogs.each do |t| %>
+        <li>
+            <%= t.title %>
+        </li>
+    <% end %>
+</ul>
